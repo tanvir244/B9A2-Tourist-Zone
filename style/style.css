@@ -50,6 +50,49 @@ section, footer {
     margin-top: 90px;
 }
 
+/* header section */
+.header-section .logo {
+    display: flex;
+    align-items: center;
+}
+.header-section .logo h1 {
+    margin-left: 20px;
+    font-size: 2.25rem;
+    color: #131318;
+    font-weight: 800;
+}
+.header-section h1 span {
+    color: #FF5400;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    list-style: none;
+    margin-left: 44px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #424247;
+    font-size: 1.25rem;
+}
+.menu-icon {
+    display: flex;
+    align-items: center;
+}
+.menu-icon i{
+    color: #131318;
+    font-size: 2rem;
+}
+#menu-icon {
+    display: none;
+}
 
 /* banner  */
 .banner {
