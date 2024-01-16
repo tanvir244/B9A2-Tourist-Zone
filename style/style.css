@@ -218,6 +218,66 @@ section {
     margin-left: 0;
 }
 
+/* Deals & Discount section */
+.discount-section-wrapper {
+    text-align: center;
+}
+.discount-banner-wrapper {
+    margin-top: 45px;
+}
+.discount-section-wrapper > p {
+    width: 655px;
+    margin: auto;
+}
+.discount-banner-1 {
+    background-image: url('../Images/Group\ 39.png');
+}
+.discount-banner-2 {
+    background-image: url('../Images/Group\ 40.png');
+}
+.discount-banner-3 {
+    background-image: url('../Images/Group\ 39.png');
+}
+.discount-banner {
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 30px;
+}
+.discount-banner-content {
+    width: 450px;
+    border-radius: 16px;
+    border: 2px solid #fff;
+    background: rgba(255, 255, 255, 0.80);
+    padding: 50px;
+    text-align: left;
+    margin-right: 50px;
+}
+.discount-banner-content p, span {
+    color: #5A5A5D;
+}
+.discount-banner-content span {
+    margin-right: 30px;
+}
+.discount-banner-content span i {
+    color: #FF5400;
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+.discount-banner-content .price-heading {
+    color: #FF5400;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+.discount-banner-2 {
+    justify-content: start;
+}
+.discount-banner-2 .discount-banner-content{
+    margin-left: 50px;
+}
 
 /* Responsive */
 /* banner */
