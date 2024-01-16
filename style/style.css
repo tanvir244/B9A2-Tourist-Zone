@@ -224,6 +224,7 @@ section {
 }
 .discount-banner-wrapper {
     margin-top: 45px;
+    margin-bottom: 50px;
 }
 .discount-section-wrapper > p {
     width: 655px;
@@ -391,6 +392,27 @@ section {
         flex-direction: column;
     }
     .choose-us-box {
+        margin: auto;
+    }
+}
+
+/* Discount section */
+@media screen and (max-width: 600px) {
+    .discount-section-wrapper > p {
+        width: 320px;
+    }
+    .discount-banner {
+        border-radius: 16px;
+    }
+    .discount-banner-content {
+        width: 228px;
+        margin-right: 0;
+        margin: auto;
+        padding: 28px;
+    }
+    .discount-banner-2 .discount-banner-content {
+        margin-left: 228px;
+        margin-left: 0;
         margin: auto;
     }
 }
