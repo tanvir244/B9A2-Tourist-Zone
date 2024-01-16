@@ -352,6 +352,23 @@ nav ul li a {
     line-height: 26px;
 }
 
+/* Cox Bazar section */
+.cox-bazar-container {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+.cox-bazar-content {
+    width: 50%;
+}
+.cox-bazar-img {
+    width: 50%;
+}
+.cox-bazar-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+
 /* Newslater section */
 .newslater-section-container {
     display: flex;
@@ -642,6 +659,32 @@ nav ul li a {
         width: 100%;
     }
 }
+
+/* Cox Bazar section */
+@media screen and (max-width: 600px) {
+    .cox-bazar-container {
+        flex-direction: column-reverse;
+    }
+    .cox-bazar-img {
+        width: 100%;
+    }
+    .cox-bazar-content {
+        width: 100%;
+    }
+}
+/* lablet responsive */
+@media screen and (min-width: 600px) and (max-width: 992px) {
+    .cox-bazar-container {
+        flex-direction: column-reverse;
+    }
+    .cox-bazar-img {
+        width: 100%;
+    }
+    .cox-bazar-content {
+        width: 100%;
+    }
+}
+
 
 /* Newslater section */
 /* mobile responsive */
