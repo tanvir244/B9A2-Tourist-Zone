@@ -661,6 +661,7 @@ nav ul li a {
 }
 
 /* Cox Bazar section */
+/* mobile responsive */
 @media screen and (max-width: 600px) {
     .cox-bazar-container {
         flex-direction: column-reverse;
